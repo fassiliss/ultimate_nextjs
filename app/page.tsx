@@ -1,13 +1,10 @@
 import React from "react";
 
-const Home = () => {
-  return (
-    <div>
-      <h1 className="text-3xl font-black text-violet-700">
-        Welcome to Next.js
-      </h1>
-    </div>
-  );
-};
+const Home = () => (
+  <>
+   <h1 className="text-4xl font-bold">Welcome to Dev Overflow</h1>
+  </>
+);
 
 export default Home;
+
