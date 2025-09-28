@@ -4,8 +4,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-
-
 @theme {
   --color-primary-100: #fff1e6;
   --color-primary-500: #ff7000;
@@ -45,11 +43,6 @@
 
   --breakpoint-xs: 420px;
 
-  fontFamily: {
-    inter: [ "var(--font-inter"];
-    grotesk: [ "var(--font-space-grotesk"];
-  }
-
   --font-inter: var(--font-inter);
   --font-space-grotesk: var(--font-space-grotesk);
 }
@@ -63,9 +56,6 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
-  body {
-    @apply font-inter;
-  }
   *,
   ::after,
   ::before,
