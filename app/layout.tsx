@@ -3,7 +3,6 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import ThemeProvider from "@/context/Theme";
-import Navbar from "@/components/navigation/navbar";
 
 // Load fonts as CSS variables
 const inter = Inter({
@@ -44,7 +43,6 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar />
           {children}
         </ThemeProvider>
       </body>
